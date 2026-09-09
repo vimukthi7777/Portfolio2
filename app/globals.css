@@ -1,0 +1,167 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================================
+   DESIGN TOKENS — "Ink on Paper" editorial system
+   warm paper, ink-black type, International Orange accent
+   ============================================================ */
+
+:root {
+  --paper: 246 243 237;
+  --paper-2: 239 234 225;
+  --paper-3: 229 223 212;
+  --ink: 26 22 17;
+  --ink-dim: 105 97 87;
+  --orange: 255 77 0;
+  --orange-deep: 212 45 0;
+  --border: rgba(26, 22, 17, 0.18);
+  --border-soft: rgba(26, 22, 17, 0.1);
+}
+
+* {
+  border-color: var(--border);
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: rgb(var(--paper));
+  color: rgb(var(--ink));
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: clip;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-wrap: balance;
+}
+
+p {
+  text-wrap: pretty;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+::selection {
+  background: rgb(var(--orange));
+  color: rgb(var(--paper));
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+::-webkit-scrollbar-track {
+  background: rgb(var(--paper));
+  border-left: 1px solid var(--border-soft);
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(var(--ink));
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(var(--orange));
+}
+
+@layer components {
+  .container-content {
+    @apply mx-auto w-full max-w-content px-5 sm:px-8 lg:px-12;
+  }
+
+  /* Display serif — primary identity typeface */
+  .text-display {
+    font-family: var(--font-serif);
+    font-weight: 400;
+    letter-spacing: -0.015em;
+    line-height: 0.98;
+  }
+
+  /* Hollow/outlined type used for indexes and watermarks */
+  .text-outline {
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgb(var(--ink));
+  }
+  .text-outline-accent {
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgb(var(--orange));
+  }
+  .text-outline-paper {
+    color: transparent;
+    -webkit-text-stroke: 1.5px rgb(var(--paper) / 0.45);
+  }
+
+  /* Solid accent-filled display */
+  .text-solid-accent {
+    color: rgb(var(--orange));
+  }
+
+  .eyebrow {
+    @apply font-mono text-[0.68rem] uppercase tracking-[0.26em] text-muted;
+  }
+
+  .hrule {
+    @apply border-t border-border;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-3 rounded-[2px] bg-foreground px-6 py-3.5 text-sm font-medium tracking-wide text-background transition-all duration-300;
+    box-shadow: 4px 4px 0 0 rgb(var(--ink));
+  }
+  .btn-primary:hover {
+    @apply bg-accent;
+    box-shadow: 1px 1px 0 0 rgb(var(--ink));
+    transform: translate(3px, 3px);
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-3 rounded-[2px] border border-border bg-transparent px-6 py-3.5 text-sm font-medium tracking-wide text-foreground transition-colors duration-300 hover:border-accent hover:text-accent;
+  }
+
+  .focus-ring {
+    @apply focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background;
+  }
+
+  /* Editorial quarter-column hairline grid */
+  .bg-grid-editorial {
+    background-image: repeating-linear-gradient(
+      90deg,
+      rgba(26, 22, 17, 0.05) 0,
+      rgba(26, 22, 17, 0.05) 1px,
+      transparent 1px,
+      transparent 25%
+    );
+  }
+
+  .split-mask {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: bottom;
+  }
+
+  .split-inner {
+    display: inline-block;
+    will-change: transform;
+  }
+
+  .writing-vertical {
+    writing-mode: vertical-rl;
+  }
+}
