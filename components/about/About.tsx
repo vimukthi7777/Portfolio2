@@ -30,10 +30,10 @@ const whatIDo = [
 ];
 
 const interests = [
-  "Modern animation & motion design",
-  "Server components & the edge",
-  "Design systems & tokens",
-  "Developer experience tooling",
+"Full-Stack Development",
+"API & Backend Development",
+"Database Management",
+"UI/UX Design",
 ];
 
 const stats = [

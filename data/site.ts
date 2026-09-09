@@ -1,12 +1,12 @@
 export const site = {
-  name: "Sahan",
+  name: "Vimukthi",
   role: "Software Developer",
   tagline:
     "I build fast, accessible and thoughtfully designed web applications — from pixel-perfect frontends to full-scale full-stack products.",
-  email: "hello@sahan.dev",
-  location: "Peradeniya, Sri Lanka",
+  email: "sahangalabodab@gmail.com",
+  location: "Kandy, Sri Lanka",
   socials: {
-    github: "https://github.com/sahan",
+    github: "https://github.com/vimukthi7777",
     linkedin: "https://www.linkedin.com/in/sahan",
     twitter: "https://x.com/sahan",
   },

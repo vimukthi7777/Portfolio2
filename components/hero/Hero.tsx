@@ -89,7 +89,7 @@ export default function Hero() {
         aria-hidden="true"
         className="text-display pointer-events-none absolute -bottom-[0.16em] -right-8 select-none whitespace-nowrap text-[clamp(6rem,22vw,20rem)] leading-none"
       >
-        <span className="text-outline">Sahan</span>
+        <span className="text-outline">Vimukthi</span>
       </div>
 
       <div className="container-content relative z-10 flex flex-1 flex-col pt-[4.25rem]">
@@ -97,9 +97,9 @@ export default function Hero() {
         <div className="grid grid-cols-2 border-b border-border pb-4 pt-6 sm:grid-cols-4 sm:pb-5" data-hero-meta>
           <p className="eyebrow">Portfolio — ©{year}</p>
           <p className="eyebrow hidden sm:block">No. 01 / Hero</p>
-          <p className="eyebrow hidden sm:block">Peradeniya, Sri Lanka</p>
+          <p className="eyebrow hidden sm:block">Kandy, Sri Lanka</p>
           <p className="eyebrow text-right">
-            <span className="text-accent">S.</span>ahan
+            <span className="text-accent">Vimukthi</span>
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export default function Hero() {
         <div className="pt-10 sm:pt-16 lg:pt-20">
           <p className="eyebrow mb-7 flex items-center gap-3" data-hero-meta>
             <span className="inline-block size-2 bg-accent" aria-hidden="true" />
-            Hi, I&apos;m Sahan
+            Hi, I&apos;m Vimukthi
           </p>
 
           <h1 className="text-display text-[clamp(4.4rem,15vw,13rem)] uppercase">
@@ -125,9 +125,9 @@ export default function Hero() {
           <div className="lg:col-span-5" data-hero-below>
             <p className="max-w-md text-base leading-relaxed text-muted sm:text-lg" data-hero-below>
               I build fast, accessible and thoughtfully designed web
-              applications — from pixel-perfect frontends to the APIs and
+              applications from pixel-perfect frontends to the APIs and
               infrastructure that power them. Currently focused on React,
-              Next.js and TypeScript.
+              Next.js and TypeScript and Springboot.
             </p>
           </div>
 

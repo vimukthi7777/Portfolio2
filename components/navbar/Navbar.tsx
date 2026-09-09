@@ -118,13 +118,13 @@ export default function Navbar() {
             className="focus-ring group flex items-end gap-2 rounded-[2px] font-mono text-sm font-bold tracking-tight text-foreground"
           >
             <span className="relative flex size-7 items-center justify-center overflow-hidden rounded-[2px] bg-foreground font-mono text-xs font-bold text-paper transition-colors duration-300 group-hover:bg-accent">
-              S
+              V
               <span
                 className="absolute -right-1 -top-1 size-2 rounded-full bg-accent transition-transform duration-300 group-hover:bg-paper"
                 aria-hidden="true"
               />
             </span>
-            sahan<sup className="text-accent">©</sup>
+            Vimukthi<sup className="text-accent">©</sup>
           </a>
 
           {/* Desktop nav */}
