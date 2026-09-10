@@ -152,9 +152,9 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             <p className="mt-6 max-w-md text-sm leading-relaxed text-muted" data-proj-fade>
               {project.description}
             </p>
-            <p className="mt-6" data-proj-fade>
-              <Meta project={project} />
-            </p>
+            <div className="mt-6" data-proj-fade>
+  <Meta project={project} />
+</div>
             <div className="mt-8">
               <Links project={project} />
             </div>

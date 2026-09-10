@@ -38,8 +38,8 @@ const interests = [
 
 const stats = [
   { value: 14, suffix: "+", label: "Projects shipped" },
-  { value: 16, suffix: "+", label: "Technologies" },
-  { value: 3, suffix: "+", label: "Years of experience" },
+  { value: 12, suffix: "+", label: "Technologies" },
+  { value: 2, suffix: "+", label: "Years of experience" },
 ];
 
 export default function About() {
@@ -145,8 +145,7 @@ export default function About() {
         <div className="mt-16 grid gap-12 lg:grid-cols-12 lg:gap-14">
           {/* Portrait plate */}
           <div className="lg:col-span-5">
-            <figure data-about-fig className="relative">
-              <div className="relative border-2 border-foreground bg-paper p-2 shadow-[6px_6px_0_0_rgb(26_22_17)]">
+            <div className="relative border-2 border-foreground bg-paper p-2 shadow-[6px_6px_0_0_rgb(26_22_17)]">
                 <Image
                   src="/images/me.png"
                   alt={`Portrait of ${site.name}, Software Developer`}
@@ -163,6 +162,8 @@ export default function About() {
                   Open to work
                 </span>
               </div>
+            <figure data-about-fig className="relative">
+              
               <figcaption className="mt-3 flex items-center justify-between gap-4 border-t border-border pt-2">
                 <span className="eyebrow !text-muted">
                   Fig. 01 — Portrait, {site.name}
@@ -204,7 +205,7 @@ export default function About() {
             <div className="grid gap-6 sm:grid-cols-2" data-about-simple>
               <p className="text-base leading-relaxed text-muted">
                 My interest in software started with a simple curiosity about
-                how things work on the web — it grew into a craft. Today I
+                how things work on the web ,it grew into a craft. Today I
                 design and build end-to-end web experiences, paying close
                 attention to behavior, motion and the small details that make
                 a product feel considered.
@@ -212,7 +213,7 @@ export default function About() {
               <p className="text-base leading-relaxed text-muted">
                 I work best where design and engineering overlap: turning rough
                 ideas into interfaces that are fast, accessible and a pleasure
-                to use — and shipping them with the systems that keep them
+                to use and shipping them with the systems that keep them
                 running.
               </p>
             </div>

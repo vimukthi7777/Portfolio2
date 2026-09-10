@@ -30,10 +30,10 @@ export const projects: Project[] = [
     description:
       "A full-stack dashboard for visualizing product analytics in real time, with role-based access and streaming charts.",
     category: "fullstack",
-    stack: ["Next.js", "TypeScript", "Node.js", "MongoDB"],
-    github: "https://github.com/sahan/orbit-analytics",
-    demo: "https://orbit-demo.sahan.dev",
-    image: "/images/project-orbit.svg",
+    stack: ["Next.js", "TypeScript", "Node.js", "MySQL"],
+    github: "",
+    demo: "https://www.ceit.pdn.ac.lk/",
+    image: "/images/project-1.png",
     accent: "#2dd4bf",
   },
   {

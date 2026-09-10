@@ -7,7 +7,7 @@ export const site = {
   location: "Kandy, Sri Lanka",
   socials: {
     github: "https://github.com/vimukthi7777",
-    linkedin: "https://www.linkedin.com/in/sahan",
+    linkedin: "https://www.linkedin.com/in/sahanvimukthi7/",
     twitter: "https://x.com/sahan",
   },
   navigation: [

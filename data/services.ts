@@ -15,6 +15,12 @@ export interface Service {
 
 export const services: Service[] = [
   {
+    icon: Layers,
+    title: "Full-Stack Web Development",
+    description:
+      "End-to-end products connecting robust APIs, databases and authentication with clean, scalable frontends.",
+  },
+  {
     icon: Palette,
     title: "UI/UX Design",
     description:
@@ -25,12 +31,6 @@ export const services: Service[] = [
     title: "Frontend Development",
     description:
       "Fast, accessible and maintainable frontends built with React, Next.js and TypeScript that perform beautifully.",
-  },
-  {
-    icon: Layers,
-    title: "Full-Stack Web Development",
-    description:
-      "End-to-end products connecting robust APIs, databases and authentication with clean, scalable frontends.",
   },
   {
     icon: Smartphone,

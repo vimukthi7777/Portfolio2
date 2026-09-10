@@ -26,6 +26,20 @@ export const experience: ExperienceItem[] = [
     current: true,
   },
   {
+    id: "intern",
+    role: "UI/UX Designer and Web Developer",
+    company: "Aalpha Eye Technologies(Pvt)Ltd",
+    period: "2023 — 2026",
+    summary:
+      "Contributed to a SaaS product used by 10k+ monthly users, focusing on core UI components.",
+    responsibilities: [
+      "Implemented reusable component libraries and design-system tokens",
+      "Fixed cross-browser bugs and improved Lighthouse scores by 25 points",
+      "Wrote unit tests for critical user flows",
+    ],
+    technologies: ["JavaScript", "React", "Tailwind css", "Figma", "Prototype", "Storybook", "Git"],
+  },
+  {
     id: "freelance",
     role: "Freelance Web Developer",
     company: "Self-employed",
@@ -38,19 +52,5 @@ export const experience: ExperienceItem[] = [
       "Shipping performance budgets and accessibility requirements on time",
     ],
     technologies: ["React", "Tailwind CSS", "Node.js", "MongoDB", "Figma"],
-  },
-  {
-    id: "intern",
-    role: "Frontend Development Intern",
-    company: "Tech Startup",
-    period: "2023 — 2024",
-    summary:
-      "Contributed to a SaaS product used by 10k+ monthly users, focusing on core UI components.",
-    responsibilities: [
-      "Implemented reusable component libraries and design-system tokens",
-      "Fixed cross-browser bugs and improved Lighthouse scores by 25 points",
-      "Wrote unit tests for critical user flows",
-    ],
-    technologies: ["JavaScript", "React", "CSS", "Storybook", "Git"],
   },
 ];

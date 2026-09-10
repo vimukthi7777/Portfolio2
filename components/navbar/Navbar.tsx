@@ -166,11 +166,12 @@ export default function Navbar() {
 
           <div className="flex items-center gap-3">
             <a
-              href="#contact"
-              className="btn-primary hidden px-5 py-2.5 font-mono text-xs uppercase tracking-[0.14em] lg:inline-flex"
-            >
-              Hire me
-            </a>
+  href="/pdf/Sahan Vimukthi CV.pdf"
+  download="Sahan Vimukthi CV.pdf"
+  className="btn-primary hidden px-5 py-2.5 font-mono text-xs uppercase tracking-[0.14em] lg:inline-flex"
+>
+  Download CV
+</a>
 
             {/* Mobile toggle */}
             <button
@@ -243,8 +244,9 @@ export default function Navbar() {
             </p>
           </div>
 
-          <a href="#contact" onClick={closeMenu} data-menu-item className="btn-primary mt-10 justify-center !bg-paper !text-ink hover:!bg-accent">
-            Hire me
+          <a href="/pdf/Sahan Vimukthi CV.pdf"
+  download="Sahan Vimukthi CV.pdf" onClick={closeMenu} data-menu-item className="btn-primary mt-10 justify-center !bg-paper !text-ink hover:!bg-accent">
+            Download CV
           </a>
         </div>
       </div>

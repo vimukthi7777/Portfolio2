@@ -96,10 +96,10 @@ export default function Hero() {
         {/* Masthead meta strip */}
         <div className="grid grid-cols-2 border-b border-border pb-4 pt-6 sm:grid-cols-4 sm:pb-5" data-hero-meta>
           <p className="eyebrow">Portfolio — ©{year}</p>
-          <p className="eyebrow hidden sm:block">No. 01 / Hero</p>
+          <p className="eyebrow hidden sm:block">Software Developer</p>
           <p className="eyebrow hidden sm:block">Kandy, Sri Lanka</p>
           <p className="eyebrow text-right">
-            <span className="text-accent">Vimukthi</span>
+            <span className="text-accent">Sahan Vimukthi</span>
           </p>
         </div>
 

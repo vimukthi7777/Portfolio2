@@ -11,7 +11,7 @@ export default function Footer() {
         aria-hidden="true"
         className="text-outline-paper pointer-events-none absolute inset-x-0 bottom-[-6vw] select-none whitespace-nowrap text-center text-[clamp(7rem,23vw,20rem)] leading-none"
       >
-        Sahan.
+        Vimukthi.
       </div>
 
       <div className="container-content relative z-10">
@@ -22,7 +22,7 @@ export default function Footer() {
               href="#home"
               className="focus-ring inline-flex items-baseline gap-2 text-display text-3xl uppercase"
             >
-              sahan<span className="italic !text-accent">.</span>
+              <span className="italic !text-accent">.</span>
             </a>
             <p className="mt-5 max-w-sm text-base leading-relaxed text-paper/70">
               Software Developer crafting fast, accessible, thoughtfully
@@ -83,7 +83,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="focus-ring inline-flex items-center gap-2 font-mono text-sm text-paper/80 transition-colors duration-200 hover:text-accent"
                 >
-                  github.com/sahan
+                  github.com/vimukthi7777
                   <ArrowUpRight
                     className="size-3.5 text-paper/40 transition-all duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-accent"
                     aria-hidden="true"
@@ -98,7 +98,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                   className="focus-ring inline-flex items-center gap-2 font-mono text-sm text-paper/80 transition-colors duration-200 hover:text-accent"
                 >
-                  linkedin.com/in/sahan
+                  linkedin.com/in/vimukthi
                   <ArrowUpRight
                     className="size-3.5 text-paper/40 transition-all duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 group-hover:text-accent"
                     aria-hidden="true"

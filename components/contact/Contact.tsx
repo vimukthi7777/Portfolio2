@@ -32,13 +32,13 @@ export default function Contact() {
     {
       icon: Github,
       label: "GitHub",
-      value: "github.com/sahan",
+      value: "github.com/vimukthi7777",
       href: site.socials.github,
     },
     {
       icon: Linkedin,
       label: "LinkedIn",
-      value: "linkedin.com/in/sahan",
+      value: "linkedin.com/in/vimukthi",
       href: site.socials.linkedin,
     },
   ];
