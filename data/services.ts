@@ -1,10 +1,10 @@
 import type { LucideIcon } from "lucide-react";
 import {
-  Palette,
-  Code2,
   Layers,
-  Smartphone,
-  Wrench,
+  Code2,
+  Database,
+  Monitor,
+  Palette,
 } from "lucide-react";
 
 export interface Service {
@@ -16,32 +16,36 @@ export interface Service {
 export const services: Service[] = [
   {
     icon: Layers,
-    title: "Full-Stack Web Development",
+    title: "Full-Stack Development",
     description:
-      "End-to-end products connecting robust APIs, databases and authentication with clean, scalable frontends.",
+      "End-to-end web applications combining modern frontends, backend services, databases, authentication and APIs.",
   },
+
+  {
+    icon: Code2,
+    title: "Backend & API Development",
+    description:
+      "REST APIs, authentication, business logic and server-side solutions built with technologies such as Node.js, Express.js and Spring Boot.",
+  },
+
+  {
+    icon: Database,
+    title: "Database Management",
+    description:
+      "Designing and managing relational and NoSQL databases with structured data models, efficient queries and reliable data handling.",
+  },
+
+  {
+    icon: Monitor,
+    title: "Frontend Engineering",
+    description:
+      "Responsive and maintainable interfaces built with React, Next.js and Tailwind CSS, focused on performance and usability.",
+  },
+
   {
     icon: Palette,
     title: "UI/UX Design",
     description:
-      "Wireframes, prototypes and polished interfaces designed around user research, usability and visual hierarchy.",
-  },
-  {
-    icon: Code2,
-    title: "Frontend Development",
-    description:
-      "Fast, accessible and maintainable frontends built with React, Next.js and TypeScript that perform beautifully.",
-  },
-  {
-    icon: Smartphone,
-    title: "Responsive Web Development",
-    description:
-      "Mobile-first, fluid layouts that feel native on every screen size — no shrinking desktop designs.",
-  },
-  {
-    icon: Wrench,
-    title: "Website Maintenance",
-    description:
-      "Performance monitoring, dependency updates, bug fixes and ongoing improvements to keep projects healthy.",
+      "User-focused interfaces, wireframes and prototypes designed with clear visual hierarchy, usability and thoughtful interactions.",
   },
 ];

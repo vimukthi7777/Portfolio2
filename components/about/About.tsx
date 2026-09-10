@@ -12,26 +12,31 @@ import { site } from "@/data/site";
 
 const whatIDo = [
   {
-    title: "Frontend Engineering",
-    text: "Component architectures, design systems and animations that stay fast and accessible at scale.",
-  },
-  {
     title: "Full-Stack Development",
     text: "APIs, databases and authentication wired into clean, maintainable interfaces.",
+  },
+  {
+    title: "Database Management",
+    text: "Designing, managing and optimizing relational and NoSQL databases for secure and efficient data handling.",
+  },
+  {
+    title: "Backend & API Development",
+    text: "Scalable REST APIs, authentication, business logic and server side solutions built for real world applications.",
+  },
+  {
+    title: "Frontend Engineering",
+    text: "Component architectures, design systems and animations that stay fast and accessible at scale.",
   },
   {
     title: "UI/UX & Design",
     text: "Flows and interfaces grounded in usability, hierarchy and thoughtful motion.",
   },
-  {
-    title: "Performance & Accessibility",
-    text: "Core Web Vitals, semantic HTML and WCAG-minded defaults baked into everything I ship.",
-  },
 ];
 
 const interests = [
 "Full-Stack Development",
-"API & Backend Development",
+"Database Management",
+"Backend & API Development",
 "Database Management",
 "UI/UX Design",
 ];
@@ -249,15 +254,17 @@ export default function About() {
               </div>
               <ul className="mt-5 flex flex-wrap gap-x-8 gap-y-3.5 border-t-2 border-foreground pt-5">
                 {[
-                  "React",
                   "Next.js",
+                  "React",
+                  "Springboot",
                   "TypeScript",
+                  "JavaScript",
+                  "Java",
                   "Tailwind CSS",
                   "Node.js",
                   "Express.js",
                   "MongoDB",
                   "PostgreSQL",
-                  "GSAP",
                   "Figma",
                 ].map((tech) => (
                   <li

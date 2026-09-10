@@ -29,7 +29,7 @@ export const experience: ExperienceItem[] = [
     id: "intern",
     role: "UI/UX Designer and Web Developer",
     company: "Aalpha Eye Technologies(Pvt)Ltd",
-    period: "2023 — 2026",
+    period: "2024 — 2026",
     summary:
       "Contributed to a SaaS product used by 10k+ monthly users, focusing on core UI components.",
     responsibilities: [
@@ -43,7 +43,7 @@ export const experience: ExperienceItem[] = [
     id: "freelance",
     role: "Freelance Web Developer",
     company: "Self-employed",
-    period: "2024 — 2025",
+    period: "2023 — 2026",
     summary:
       "Delivered UI/UX design and full-stack web solutions for small businesses and early-stage startups.",
     responsibilities: [
