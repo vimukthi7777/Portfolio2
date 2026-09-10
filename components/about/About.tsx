@@ -37,8 +37,7 @@ const interests = [
 "Full-Stack Development",
 "Database Management",
 "Backend & API Development",
-"Database Management",
-"UI/UX Design",
+"UI/UX & Design",
 ];
 
 const stats = [

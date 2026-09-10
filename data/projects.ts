@@ -45,7 +45,7 @@ export const projects: Project[] = [
   stack: ["Electron.js", "React", "TypeScript", "Google Apps Script"],
   github: "https://github.com/vimukthi7777/NoticePDN",
   demo: "",
-  image: "/images/project2.png",
+  image: "/images/project-2.png",
   accent: "#f59e0b",
 },
  {
@@ -57,7 +57,7 @@ export const projects: Project[] = [
   stack: ["Next.js", "TypeScript", "Tailwind CSS", "Google Apps Script"],
   github: "https://github.com/vimukthi7777/riseweb",
   demo: "https://www.risegaming.online/",
-  image: "/images/project3.png",
+  image: "/images/project-3.png",
   accent: "#f59e0b",
 },
 {
@@ -69,7 +69,7 @@ export const projects: Project[] = [
   stack: ["Electron.js", "React", "TypeScript", "Tailwind CSS"],
   github: "https://github.com/vimukthi7777/ncp-gov-noticeboard",
   demo: "https://governor.nc.gov.lk/",
-  image: "/images/project4.png",
+  image: "/images/project-4.png",
   accent: "#0284c7",
 },
   {
@@ -81,7 +81,7 @@ export const projects: Project[] = [
   stack: ["Figma", "UI/UX Design", "Wireframing", "Prototyping"],
   github: "",
   demo: "https://www.figma.com/",
-  image: "/images/project5.png",
+  image: "/images/project-5.png",
   accent: "#8b5cf6",
 },
  {
@@ -93,7 +93,7 @@ export const projects: Project[] = [
   stack: ["Figma", "Ui/Ux","Prototype", "Next.js"],
   github: "https://github.com/vimukthi7777/overland-auto",
   demo: "https://www.overlandautomobiles.lk/",
-  image: "/images/project6.png",
+  image: "/images/project-6.png",
   accent: "#38bdf8",
 },
   {
@@ -105,7 +105,7 @@ export const projects: Project[] = [
   stack: ["Figma","Ui/Ux", "Prototyping"],
   github: "",
   demo: "https://www.figma.com/",
-  image: "/images/project7.png",
+  image: "/images/project-7.png",
   accent: "#fb7185",
 }
 ];
