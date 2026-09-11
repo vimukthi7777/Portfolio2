@@ -22,17 +22,22 @@ const jetbrainsMono = JetBrains_Mono({
   display: "swap",
 });
 
-const siteTitle = "Sahan — Software Developer";
+const siteTitle = "Sahan Vimukthi | Portfolio";
 const siteDescription =
   "Portfolio of Sahan, a software developer focused on building modern, accessible and high-performance web experiences with Next.js, React and TypeScript.";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sahan.dev"),
+  metadataBase: new URL("https://www.sahanvimukthi.com.lk/"),
   title: {
     default: siteTitle,
     template: "%s — Sahan",
   },
   description: siteDescription,
+
+  icons: {
+    icon: "/logo.png",
+  },
+
   keywords: [
     "software developer",
     "frontend developer",
@@ -49,7 +54,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://sahan.dev",
+    url: "https://www.sahanvimukthi.com.lk/",
     siteName: "Sahan Portfolio",
     title: siteTitle,
     description: siteDescription,
